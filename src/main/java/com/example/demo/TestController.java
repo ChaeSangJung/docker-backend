@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api")
 public class TestController {
-    @CrossOrigin(origins = {"http://localhost:3000", "http://localhost:20001", "https://example.net"})
+    @CrossOrigin(origins = {"http://localhost:3000", "http://43.203.121.194:20001", "https://example.net"})
     @GetMapping("/test")
     public Map<String, Object> test() {
         Map<String, Object> response = new HashMap<>();
